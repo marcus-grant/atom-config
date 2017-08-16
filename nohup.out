@@ -1,10 +1,6 @@
 
-(electron:21804): Gdk-WARNING **: gdkwindow-x11.c:5573 drawable is not a native X11 window
+(electron:14677): Gdk-WARNING **: gdkwindow-x11.c:5573 drawable is not a native X11 window
 
-(electron:21804): Gdk-WARNING **: gdkwindow-x11.c:5573 drawable is not a native X11 window
+(electron:14677): Gdk-WARNING **: gdkwindow-x11.c:5573 drawable is not a native X11 window
 
-(electron:21804): Gdk-WARNING **: gdkwindow-x11.c:5573 drawable is not a native X11 window
-[22070:22098:0809/185203.274078:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
-Created new window in existing browser session.
-[12303:12332:0816/181904.234040:ERROR:browser_gpu_channel_host_factory.cc(103)] Failed to launch GPU process.
-Created new window in existing browser session.
+(electron:14677): Gdk-WARNING **: gdkwindow-x11.c:5573 drawable is not a native X11 window
