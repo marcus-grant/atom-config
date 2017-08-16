@@ -1,0 +1,86 @@
+// Layouts
+
+body[fancy] {
+  atom-panel.modal,
+  .overlay {
+    width: 50%;
+    margin-left: -25%;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0;
+    atom-text-editor[mini] {
+        margin-bottom: @component-padding;
+    }
+    .tree-view-dialog, .go-to-line {
+      padding: 10px;
+      background: @base-background-color;
+      box-shadow: 0 0 40px @base-border-color;
+    }
+    .error-message, .loading {
+      padding: 10px;
+      background: @base-background-color;
+    }
+    .select-list {
+      atom-text-editor[mini] {
+        box-shadow: 0 0 40px @base-border-color;
+        margin: 10px 0;
+        position:relative;
+        z-index: 1;
+        max-height: 36px;
+        height: 36px;
+        padding: 5px;
+      }
+    }
+    .select-list ol.list-group,
+     &.select-list ol.list-group {
+      box-shadow: 0 0 40px @base-border-color;
+      max-height: 500px;
+    }
+  }
+}
+
+// Colors
+
+body[color="Grey"] {.customize(@grey)}
+body[color="Red"] {.customize(@red)}
+body[color="Pink"] {.customize(@pink)}
+body[color="Purple"] {.customize(@purple)}
+body[color="Deep Purple"] {.customize(@deep-purple)}
+body[color="Indigo"] {.customize(@indigo)}
+body[color="Blue"] {.customize(@blue)}
+body[color="Light Blue"] {.customize(@light-blue)}
+body[color="Cyan"] {.customize(@cyan)}
+body[color="Teal"] {.customize(@teal)}
+body[color="Green"] {.customize(@green)}
+body[color="Light Green"] {.customize(@light-green)}
+body[color="Lime"] {.customize(@lime)}
+body[color="Yellow"] {.customize(@yellow)}
+body[color="Amber"] {.customize(@amber)}
+body[color="Orange"] {.customize(@orange)}
+body[color="Deep Orange"] {.customize(@deep-orange)}
+body[color="Brown"] {.customize(@brown)}
+body[color="Blue Grey"] {.customize(@blue-grey)}
+
+.customize(@customColor) {
+  .tab-bar .tab.active {
+    background: @customColor;
+  }
+  .tab-bar:after {
+    background: @customColor;
+  }
+  .tree-view .selected:before {
+    background: @customColor;
+  }
+  .select-list ol.list-group,
+  &.select-list ol.list-group {
+    .character-match {
+      color: @customColor;
+    }
+  }
+  .list-item.selected::before {
+    background: @customColor;
+  }
+  .scrollbars-visible-always atom-text-editor /deep/::-webkit-scrollbar-thumb {
+    background: @customColor;
+  }
+}

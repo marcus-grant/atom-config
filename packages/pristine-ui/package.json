@@ -1,0 +1,98 @@
+{
+  "_from": "file:/tmp/d-11779-16660-vktvgh.n6pxq/package.tgz",
+  "_id": "pristine-ui@1.1.6",
+  "_inBundle": false,
+  "_integrity": "sha1-OLYOfVvqvFkpheLfW4STzSopymU=",
+  "_location": "/pristine-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-16660-33wmgt.ri65r",
+    "raw": "/tmp/d-11779-16660-vktvgh.n6pxq/package.tgz",
+    "rawSpec": "/tmp/d-11779-16660-vktvgh.n6pxq/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-16660-vktvgh.n6pxq/package.tgz",
+    "fetchSpec": "/tmp/d-11779-16660-vktvgh.n6pxq/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-16660-vktvgh.n6pxq/package.tgz",
+  "_spec": "/tmp/d-11779-16660-vktvgh.n6pxq/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-16660-33wmgt.ri65r",
+  "bugs": {
+    "url": "https://github.com/cdonohue/pristine-ui/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "fontSize": {
+      "title": "Font Size",
+      "description": "Change the UI font size. Needs to be between 8 and 20. In Auto mode, the Font Size will automatically change based on the window size.",
+      "type": [
+        "integer",
+        "string"
+      ],
+      "minimum": 8,
+      "maximum": 20,
+      "default": "Auto",
+      "order": 1
+    },
+    "tabSizing": {
+      "title": "Tab Sizing",
+      "description": "In Even mode all tabs will be the same size. Great for quickly closing many tabs. In Maximum mode the tabs will expand to take up the full width. In Minimum mode the tabs will only take as little space as needed and also show longer file names.",
+      "type": "string",
+      "default": "Even",
+      "enum": [
+        "Even",
+        "Maximum",
+        "Minimum"
+      ],
+      "order": 2
+    },
+    "hideDockButtons": {
+      "title": "Hide dock toggle buttons",
+      "description": "Note: When hiding the toggle buttons, opening a dock needs to be done by using the keyboard or other alternatives.",
+      "type": "boolean",
+      "default": "false",
+      "order": 3
+    }
+  },
+  "deprecated": false,
+  "description": "Pristine UI theme",
+  "devDependencies": {
+    "coffeelint": "^1.9.7"
+  },
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "homepage": "https://github.com/cdonohue/pristine-ui#readme",
+  "keywords": [
+    "dark",
+    "adaptive",
+    "ui",
+    "pristine",
+    "clean"
+  ],
+  "license": "MIT",
+  "main": "lib/main",
+  "name": "pristine-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdonohue/pristine-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.1.6",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "coffeelint.json",
+        "package.json"
+      ],
+      ".coffee": [
+        "lib/main.coffee"
+      ]
+    },
+    "folders": []
+  }
+}

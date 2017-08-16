@@ -1,0 +1,58 @@
+{
+  "_from": "file:/tmp/d-11779-16879-btr2gg.p808v/package.tgz",
+  "_id": "apex-ui@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-OLWlCWUHenwljY/OkP2yWIsilUY=",
+  "_location": "/apex-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-16879-px4za8.pfhe",
+    "raw": "/tmp/d-11779-16879-btr2gg.p808v/package.tgz",
+    "rawSpec": "/tmp/d-11779-16879-btr2gg.p808v/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-16879-btr2gg.p808v/package.tgz",
+    "fetchSpec": "/tmp/d-11779-16879-btr2gg.p808v/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-16879-btr2gg.p808v/package.tgz",
+  "_spec": "/tmp/d-11779-16879-btr2gg.p808v/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-16879-px4za8.pfhe",
+  "bugs": {
+    "url": "https://github.com/apex/apex-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Apex monochrome theme UI inspired by iA Writer",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/apex/apex-ui#readme",
+  "keywords": [
+    "apex",
+    "monochrome",
+    "ui",
+    "ia",
+    "theme",
+    "writer"
+  ],
+  "license": "MIT",
+  "name": "apex-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apex/apex-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.0.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

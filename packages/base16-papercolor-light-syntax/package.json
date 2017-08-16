@@ -1,0 +1,54 @@
+{
+  "_from": "file:/tmp/d-11779-17696-1ids12x.9v6i/package.tgz",
+  "_id": "base16-papercolor-light-syntax@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-MmprVVctyPfpFbyxH4/ZzAsxNKM=",
+  "_location": "/base16-papercolor-light-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-17696-o82ji4.wmgkr",
+    "raw": "/tmp/d-11779-17696-1ids12x.9v6i/package.tgz",
+    "rawSpec": "/tmp/d-11779-17696-1ids12x.9v6i/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-17696-1ids12x.9v6i/package.tgz",
+    "fetchSpec": "/tmp/d-11779-17696-1ids12x.9v6i/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-17696-1ids12x.9v6i/package.tgz",
+  "_spec": "/tmp/d-11779-17696-1ids12x.9v6i/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-17696-o82ji4.wmgkr",
+  "bugs": {
+    "url": "https://github.com/NLKNguyen/base16-papercolor-light-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A Base16 light color scheme based on PaperColor",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/NLKNguyen/base16-papercolor-light-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "base16-papercolor-light-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NLKNguyen/base16-papercolor-light-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.1.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

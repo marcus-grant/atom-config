@@ -1,0 +1,67 @@
+{
+  "_from": "file:/tmp/d-11779-12887-kzzugq.kmn3/package.tgz",
+  "_id": "react-snippets@0.9.0",
+  "_inBundle": false,
+  "_integrity": "sha1-gM8rMLNpoiFIBeMmH106pJdTL7I=",
+  "_location": "/react-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-12887-15tuqdf.t6vv",
+    "raw": "/tmp/d-11779-12887-kzzugq.kmn3/package.tgz",
+    "rawSpec": "/tmp/d-11779-12887-kzzugq.kmn3/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-12887-kzzugq.kmn3/package.tgz",
+    "fetchSpec": "/tmp/d-11779-12887-kzzugq.kmn3/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-12887-kzzugq.kmn3/package.tgz",
+  "_spec": "/tmp/d-11779-12887-kzzugq.kmn3/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-12887-15tuqdf.t6vv",
+  "bugs": {
+    "url": "https://github.com/webbushka/atom-react-snippets/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Atom Snippets for React, React Router and Flux",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-lintspaces": "^0.3.0"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/webbushka/atom-react-snippets",
+  "keywords": [
+    "react",
+    "react router",
+    "flux",
+    "snippets",
+    "es6"
+  ],
+  "license": "MIT",
+  "main": "./lib/react-snippets",
+  "name": "react-snippets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbushka/atom-react-snippets.git"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "version": "0.9.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "Gulpfile.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

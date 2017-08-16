@@ -1,0 +1,62 @@
+{
+  "_from": "file:/tmp/d-11779-17660-10znupg.3f73/package.tgz",
+  "_id": "paper-flat-ui@1.3.6",
+  "_inBundle": false,
+  "_integrity": "sha1-JyZqbDkj9zVMSDkvP1H3+J7woiQ=",
+  "_location": "/paper-flat-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-17660-1ytl7hi.bzpm",
+    "raw": "/tmp/d-11779-17660-10znupg.3f73/package.tgz",
+    "rawSpec": "/tmp/d-11779-17660-10znupg.3f73/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-17660-10znupg.3f73/package.tgz",
+    "fetchSpec": "/tmp/d-11779-17660-10znupg.3f73/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-17660-10znupg.3f73/package.tgz",
+  "_spec": "/tmp/d-11779-17660-10znupg.3f73/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-17660-1ytl7hi.bzpm",
+  "bugs": {
+    "url": "https://github.com/plrenaudin/paper-flat-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A light UI theme for Atom based on Atom light UI",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/plrenaudin/paper-flat-ui#readme",
+  "keywords": [
+    "UI",
+    "theme",
+    "light",
+    "flat",
+    "paper"
+  ],
+  "license": "MIT",
+  "main": "lib/settings",
+  "name": "paper-flat-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plrenaudin/paper-flat-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.3.6",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/config.coffee",
+        "lib/settings.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

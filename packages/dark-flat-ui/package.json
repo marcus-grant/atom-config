@@ -1,0 +1,61 @@
+{
+  "_from": "file:/tmp/d-11779-19389-6a4cxl.82fpc/package.tgz",
+  "_id": "dark-flat-ui@1.2.4",
+  "_inBundle": false,
+  "_integrity": "sha1-P+pTJs+7h4PBEXobNaob8xs49hI=",
+  "_location": "/dark-flat-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-19389-w7rzj6.7xhf",
+    "raw": "/tmp/d-11779-19389-6a4cxl.82fpc/package.tgz",
+    "rawSpec": "/tmp/d-11779-19389-6a4cxl.82fpc/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-19389-6a4cxl.82fpc/package.tgz",
+    "fetchSpec": "/tmp/d-11779-19389-6a4cxl.82fpc/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-19389-6a4cxl.82fpc/package.tgz",
+  "_spec": "/tmp/d-11779-19389-6a4cxl.82fpc/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-19389-w7rzj6.7xhf",
+  "bugs": {
+    "url": "https://github.com/olmokramer/atom-dark-flat-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A dark flat ui theme",
+  "engines": {
+    "atom": ">0.140.0"
+  },
+  "homepage": "https://github.com/olmokramer/atom-dark-flat-ui#readme",
+  "keywords": [
+    "dark",
+    "flat",
+    "ui",
+    "grey",
+    "gray"
+  ],
+  "license": "MIT",
+  "main": "lib/dark-flat-ui",
+  "name": "dark-flat-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olmokramer/atom-dark-flat-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.2.4",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "lib/dark-flat-ui.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

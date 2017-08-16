@@ -1,0 +1,60 @@
+{
+  "_from": "file:/tmp/d-11779-16936-1klbmdc.lqij/package.tgz",
+  "_id": "apex-muted-ui@0.1.3",
+  "_inBundle": false,
+  "_integrity": "sha1-vWK5sZcZmJIxrXP6AhcqUUIfUUY=",
+  "_location": "/apex-muted-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-16936-1j39mei.uj9g",
+    "raw": "/tmp/d-11779-16936-1klbmdc.lqij/package.tgz",
+    "rawSpec": "/tmp/d-11779-16936-1klbmdc.lqij/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-16936-1klbmdc.lqij/package.tgz",
+    "fetchSpec": "/tmp/d-11779-16936-1klbmdc.lqij/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-16936-1klbmdc.lqij/package.tgz",
+  "_spec": "/tmp/d-11779-16936-1klbmdc.lqij/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-16936-1j39mei.uj9g",
+  "bugs": {
+    "url": "https://github.com/12px/apex-muted-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Apex UI / 12px Dark Variant",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/12px/apex-muted-ui#readme",
+  "keywords": [
+    "apex",
+    "monochrome",
+    "ui",
+    "ia",
+    "theme",
+    "writer",
+    "slim",
+    "dark"
+  ],
+  "license": "MIT",
+  "name": "apex-muted-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12px/apex-muted-ui.git"
+  },
+  "theme": "ui",
+  "version": "0.1.3",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

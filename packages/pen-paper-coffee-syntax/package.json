@@ -1,0 +1,57 @@
+{
+  "_from": "file:/tmp/d-11779-17364-1rrj5ha.uu59/package.tgz",
+  "_id": "pen-paper-coffee-syntax@0.14.9",
+  "_inBundle": false,
+  "_integrity": "sha1-L5ioRw8jDQKRLsd3ckaoj2y1qcs=",
+  "_location": "/pen-paper-coffee-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-17364-f6anmx.43iat",
+    "raw": "/tmp/d-11779-17364-1rrj5ha.uu59/package.tgz",
+    "rawSpec": "/tmp/d-11779-17364-1rrj5ha.uu59/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-17364-1rrj5ha.uu59/package.tgz",
+    "fetchSpec": "/tmp/d-11779-17364-1rrj5ha.uu59/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-17364-1rrj5ha.uu59/package.tgz",
+  "_spec": "/tmp/d-11779-17364-1rrj5ha.uu59/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-17364-f6anmx.43iat",
+  "bugs": {
+    "url": "https://github.com/nylki/pen-paper-coffee-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A syntax theme specifically for writing papers in markdown. Featuring a paper like color scheme and increased font-size for headings",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/nylki/pen-paper-coffee-syntax#readme",
+  "keywords": [
+    "markdown",
+    "light",
+    "brown",
+    "writing",
+    "citing"
+  ],
+  "license": "MIT",
+  "name": "pen-paper-coffee-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nylki/pen-paper-coffee-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.14.9",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

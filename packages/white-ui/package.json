@@ -1,0 +1,50 @@
+{
+  "_from": "file:/tmp/d-11779-19424-qxomb2.rucqs/package.tgz",
+  "_id": "white-ui@2.6.2",
+  "_inBundle": false,
+  "_integrity": "sha1-ky+E+zbX4WRzM24YrNoP/gK1Rsg=",
+  "_location": "/white-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-19424-nsx4fi.9c1c",
+    "raw": "/tmp/d-11779-19424-qxomb2.rucqs/package.tgz",
+    "rawSpec": "/tmp/d-11779-19424-qxomb2.rucqs/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-19424-qxomb2.rucqs/package.tgz",
+    "fetchSpec": "/tmp/d-11779-19424-qxomb2.rucqs/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-19424-qxomb2.rucqs/package.tgz",
+  "_spec": "/tmp/d-11779-19424-qxomb2.rucqs/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-19424-nsx4fi.9c1c",
+  "bugs": {
+    "url": "https://github.com/williamtguerra/white-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Minimal white UI theme",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/williamtguerra/white-ui#readme",
+  "license": "MIT",
+  "name": "white-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamtguerra/white-ui.git"
+  },
+  "theme": "ui",
+  "version": "2.6.2",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

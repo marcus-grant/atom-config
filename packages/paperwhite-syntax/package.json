@@ -1,0 +1,57 @@
+{
+  "_from": "file:/tmp/d-11779-17322-jdklxx.ph9qe/package.tgz",
+  "_id": "paperwhite-syntax@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-MT4BbAQqYwusZZzPOAQUUFaMhDY=",
+  "_location": "/paperwhite-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-17322-lwix3w.3icia",
+    "raw": "/tmp/d-11779-17322-jdklxx.ph9qe/package.tgz",
+    "rawSpec": "/tmp/d-11779-17322-jdklxx.ph9qe/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-17322-jdklxx.ph9qe/package.tgz",
+    "fetchSpec": "/tmp/d-11779-17322-jdklxx.ph9qe/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-17322-jdklxx.ph9qe/package.tgz",
+  "_spec": "/tmp/d-11779-17322-jdklxx.ph9qe/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-17322-lwix3w.3icia",
+  "bugs": {
+    "url": "https://github.com/aeioliu/paperwhite-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Simple and clean light Atom syntax theme",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/aeioliu/paperwhite-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "light",
+    "paperwhite",
+    "clean"
+  ],
+  "license": "MIT",
+  "name": "paperwhite-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeioliu/paperwhite-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_from": "file:/tmp/d-11779-19378-4d6ud7.ialt4/package.tgz",
+  "_id": "flatwhite-syntax@0.8.1",
+  "_inBundle": false,
+  "_integrity": "sha1-cHCHK2e9IQ70QXhLIv4Q/oE7Rt4=",
+  "_location": "/flatwhite-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-19378-11st2z1.1pxb",
+    "raw": "/tmp/d-11779-19378-4d6ud7.ialt4/package.tgz",
+    "rawSpec": "/tmp/d-11779-19378-4d6ud7.ialt4/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-19378-4d6ud7.ialt4/package.tgz",
+    "fetchSpec": "/tmp/d-11779-19378-4d6ud7.ialt4/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-19378-4d6ud7.ialt4/package.tgz",
+  "_spec": "/tmp/d-11779-19378-4d6ud7.ialt4/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-19378-11st2z1.1pxb",
+  "bugs": {
+    "url": "https://github.com/biletskyy/flatwhite-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Colored backgrounds used for code highlighting.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/biletskyy/flatwhite-syntax#readme",
+  "keywords": [
+    "light",
+    "soft",
+    "minimal",
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "main": "./lib/flatwhite",
+  "name": "flatwhite-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biletskyy/flatwhite-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.8.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/flatwhite-settings.coffee",
+        "lib/flatwhite.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

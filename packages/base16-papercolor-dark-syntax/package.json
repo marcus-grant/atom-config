@@ -1,0 +1,54 @@
+{
+  "_from": "file:/tmp/d-11779-17732-1uz7r8h.x27h/package.tgz",
+  "_id": "base16-papercolor-dark-syntax@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-nE5PZB6fZd3HPGgBaptr6yc+m7U=",
+  "_location": "/base16-papercolor-dark-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-11779-17732-74tehm.fhyis",
+    "raw": "/tmp/d-11779-17732-1uz7r8h.x27h/package.tgz",
+    "rawSpec": "/tmp/d-11779-17732-1uz7r8h.x27h/package.tgz",
+    "saveSpec": "file:/tmp/d-11779-17732-1uz7r8h.x27h/package.tgz",
+    "fetchSpec": "/tmp/d-11779-17732-1uz7r8h.x27h/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-11779-17732-1uz7r8h.x27h/package.tgz",
+  "_spec": "/tmp/d-11779-17732-1uz7r8h.x27h/package.tgz",
+  "_where": "/tmp/apm-install-dir-11779-17732-74tehm.fhyis",
+  "bugs": {
+    "url": "https://github.com/NLKNguyen/base16-papercolor-dark-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A Base16 dark color scheme based on PaperColor",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/NLKNguyen/base16-papercolor-dark-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "base16-papercolor-dark-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NLKNguyen/base16-papercolor-dark-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}
