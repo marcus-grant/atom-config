@@ -1,0 +1,1 @@
+{"versions":{"1.0.0":{"name":"complain","version":"1.0.0","devDependencies":{"mocha":"~1.8.1"},"directories":{},"dist":{"shasum":"d7ccbbe342df3ebf37201b2cf3d88b6f00e6f5f5","tarball":"https://registry.npmjs.org/complain/-/complain-1.0.0.tgz"},"_hasShrinkwrap":false}},"name":"complain","dist-tags":{"latest":"1.0.0"},"modified":"2017-07-21T19:43:58.194Z"}

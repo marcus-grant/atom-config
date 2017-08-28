@@ -1,0 +1,62 @@
+{
+  "_from": "file:/tmp/d-117721-29445-176y36e.sl9o/package.tgz",
+  "_id": "emmet-jsx-css-modules@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-geHyFqqV/okqWCxyYn4EJbK1BLs=",
+  "_location": "/emmet-jsx-css-modules",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "/tmp/apm-install-dir-117721-29445-8txybs.ar51w",
+    "raw": "/tmp/d-117721-29445-176y36e.sl9o/package.tgz",
+    "rawSpec": "/tmp/d-117721-29445-176y36e.sl9o/package.tgz",
+    "saveSpec": "file:/tmp/d-117721-29445-176y36e.sl9o/package.tgz",
+    "fetchSpec": "/tmp/d-117721-29445-176y36e.sl9o/package.tgz"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "/tmp/d-117721-29445-176y36e.sl9o/package.tgz",
+  "_spec": "/tmp/d-117721-29445-176y36e.sl9o/package.tgz",
+  "_where": "/tmp/apm-install-dir-117721-29445-8txybs.ar51w",
+  "author": {
+    "name": "Jason L Perry",
+    "email": "jasper@ambethia.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ambethia/emmet-jsx-css-modules/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Extends Emmet's JSX expansions to use CSS modules.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ambethia/emmet-jsx-css-modules#readme",
+  "keywords": [
+    "emmet",
+    "jsx",
+    "css-modules"
+  ],
+  "license": "MIT",
+  "main": "./lib/emmet-jsx-css-modules",
+  "name": "emmet-jsx-css-modules",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambethia/emmet-jsx-css-modules.git"
+  },
+  "version": "1.0.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "lib/emmet-jsx-css-modules.js"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

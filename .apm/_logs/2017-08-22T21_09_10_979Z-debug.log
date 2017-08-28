@@ -1,0 +1,1157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   '/home/marcus/.atom/.apm/.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   '/home/marcus/.atom/.apmrc',
+1 verbose cli   'install',
+1 verbose cli   '/tmp/d-117722-23905-169wg0e.d6ca/package.tgz',
+1 verbose cli   '--runtime=electron',
+1 verbose cli   '--target=1.4.16',
+1 verbose cli   '--arch=x64',
+1 verbose cli   '--global-style' ]
+2 info using npm@5.3.0
+3 info using node@v8.1.2
+4 verbose npm-session 748dabc25127955a
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly pacote file manifest for undefined@file:/tmp/d-117722-23905-169wg0e.d6ca/package.tgz fetched in 33ms
+8 silly install loadIdealTree
+9 silly install cloneCurrentTreeToIdealTree
+10 silly install loadShrinkwrap
+11 silly install loadAllDepsIntoIdealTree
+12 silly resolveWithNewModule bracket-matcher@0.87.3 checking installable status
+13 http fetch GET 200 https://registry.npmjs.org/first-mate 721ms
+14 silly pacote range manifest for first-mate@^7.0.1 fetched in 748ms
+15 silly resolveWithNewModule first-mate@7.0.7 checking installable status
+16 http fetch GET 304 https://registry.npmjs.org/underscore-plus 729ms (from cache)
+17 silly pacote range manifest for underscore-plus@1.x fetched in 730ms
+18 silly resolveWithNewModule underscore-plus@1.6.6 checking installable status
+19 http fetch GET 200 https://registry.npmjs.org/event-kit 33ms
+20 silly pacote range manifest for event-kit@^2.2.0 fetched in 37ms
+21 silly resolveWithNewModule event-kit@2.3.0 checking installable status
+22 http fetch GET 200 https://registry.npmjs.org/fs-plus 44ms
+23 silly pacote range manifest for fs-plus@^3.0.0 fetched in 48ms
+24 silly resolveWithNewModule fs-plus@3.0.1 checking installable status
+25 http fetch GET 200 https://registry.npmjs.org/season 139ms
+26 http fetch GET 200 https://registry.npmjs.org/oniguruma 142ms
+27 http fetch GET 304 https://registry.npmjs.org/grim 144ms (from cache)
+28 silly pacote range manifest for season@^6.0.0 fetched in 151ms
+29 silly resolveWithNewModule season@6.0.0 checking installable status
+30 silly pacote range manifest for grim@^2.0.1 fetched in 155ms
+31 silly resolveWithNewModule grim@2.0.1 checking installable status
+32 silly pacote version manifest for oniguruma@6.2.1 fetched in 154ms
+33 silly resolveWithNewModule oniguruma@6.2.1 checking installable status
+34 http fetch GET 304 https://registry.npmjs.org/emissary 171ms (from cache)
+35 silly pacote range manifest for emissary@^1 fetched in 173ms
+36 silly resolveWithNewModule emissary@1.3.3 checking installable status
+37 http fetch GET 304 https://registry.npmjs.org/es6-weak-map 17ms (from cache)
+38 silly pacote range manifest for es6-weak-map@^0.1.2 fetched in 19ms
+39 silly resolveWithNewModule es6-weak-map@0.1.4 checking installable status
+40 http fetch GET 304 https://registry.npmjs.org/property-accessors 29ms (from cache)
+41 silly pacote range manifest for property-accessors@^1.1 fetched in 30ms
+42 silly resolveWithNewModule property-accessors@1.1.3 checking installable status
+43 http fetch GET 304 https://registry.npmjs.org/mixto 100ms (from cache)
+44 silly pacote range manifest for mixto@1.x fetched in 105ms
+45 silly resolveWithNewModule mixto@1.0.0 checking installable status
+46 http fetch GET 304 https://registry.npmjs.org/es6-iterator 27ms (from cache)
+47 silly pacote range manifest for es6-iterator@~0.1.3 fetched in 29ms
+48 silly resolveWithNewModule es6-iterator@0.1.3 checking installable status
+49 http fetch GET 304 https://registry.npmjs.org/d 32ms (from cache)
+50 http fetch GET 304 https://registry.npmjs.org/es5-ext 31ms (from cache)
+51 silly pacote range manifest for d@~0.1.1 fetched in 33ms
+52 silly resolveWithNewModule d@0.1.1 checking installable status
+53 silly pacote range manifest for es5-ext@~0.10.6 fetched in 34ms
+54 silly resolveWithNewModule es5-ext@0.10.29 checking installable status
+55 http fetch GET 304 https://registry.npmjs.org/es6-symbol 33ms (from cache)
+56 silly pacote range manifest for es6-symbol@~2.0.1 fetched in 35ms
+57 silly resolveWithNewModule es6-symbol@2.0.1 checking installable status
+58 silly pacote range manifest for es6-iterator@2 fetched in 1ms
+59 silly resolveWithNewModule es6-iterator@2.0.1 checking installable status
+60 silly pacote range manifest for es6-symbol@~3.1 fetched in 2ms
+61 silly resolveWithNewModule es6-symbol@3.1.1 checking installable status
+62 silly pacote range manifest for d@1 fetched in 1ms
+63 silly resolveWithNewModule d@1.0.0 checking installable status
+64 http fetch GET 200 https://registry.npmjs.org/underscore 12ms
+65 silly pacote range manifest for underscore@~1.6.0 fetched in 16ms
+66 silly resolveWithNewModule underscore@1.6.0 checking installable status
+67 http fetch GET 200 https://registry.npmjs.org/mkdirp 23ms
+68 http fetch GET 200 https://registry.npmjs.org/rimraf 25ms
+69 http fetch GET 200 https://registry.npmjs.org/async 27ms
+70 silly pacote range manifest for mkdirp@^0.5.1 fetched in 35ms
+71 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+72 silly pacote range manifest for rimraf@^2.5.2 fetched in 35ms
+73 silly resolveWithNewModule rimraf@2.6.1 checking installable status
+74 silly pacote range manifest for async@^1.5.2 fetched in 36ms
+75 silly resolveWithNewModule async@1.5.2 checking installable status
+76 http fetch GET 200 https://registry.npmjs.org/minimist 18ms
+77 silly pacote version manifest for minimist@0.0.8 fetched in 22ms
+78 silly resolveWithNewModule minimist@0.0.8 checking installable status
+79 http fetch GET 200 https://registry.npmjs.org/glob 14ms
+80 silly pacote range manifest for glob@^7.0.5 fetched in 18ms
+81 silly resolveWithNewModule glob@7.1.2 checking installable status
+82 http fetch GET 200 https://registry.npmjs.org/fs.realpath 33ms
+83 http fetch GET 200 https://registry.npmjs.org/inflight 34ms
+84 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 33ms
+85 http fetch GET 200 https://registry.npmjs.org/inherits 34ms
+86 http fetch GET 200 https://registry.npmjs.org/once 36ms
+87 http fetch GET 200 https://registry.npmjs.org/minimatch 37ms
+88 silly pacote range manifest for fs.realpath@^1.0.0 fetched in 43ms
+89 silly resolveWithNewModule fs.realpath@1.0.0 checking installable status
+90 silly pacote range manifest for path-is-absolute@^1.0.0 fetched in 42ms
+91 silly resolveWithNewModule path-is-absolute@1.0.1 checking installable status
+92 silly pacote range manifest for inflight@^1.0.4 fetched in 44ms
+93 silly resolveWithNewModule inflight@1.0.6 checking installable status
+94 silly pacote range manifest for inherits@2 fetched in 43ms
+95 silly resolveWithNewModule inherits@2.0.3 checking installable status
+96 silly pacote range manifest for once@^1.3.0 fetched in 43ms
+97 silly resolveWithNewModule once@1.4.0 checking installable status
+98 silly pacote range manifest for minimatch@^3.0.4 fetched in 43ms
+99 silly resolveWithNewModule minimatch@3.0.4 checking installable status
+100 http fetch GET 200 https://registry.npmjs.org/wrappy 16ms
+101 silly pacote range manifest for wrappy@1 fetched in 20ms
+102 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+103 http fetch GET 200 https://registry.npmjs.org/brace-expansion 18ms
+104 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 20ms
+105 silly resolveWithNewModule brace-expansion@1.1.8 checking installable status
+106 http fetch GET 200 https://registry.npmjs.org/concat-map 12ms
+107 http fetch GET 200 https://registry.npmjs.org/balanced-match 13ms
+108 silly pacote version manifest for concat-map@0.0.1 fetched in 14ms
+109 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+110 silly pacote range manifest for balanced-match@^1.0.0 fetched in 15ms
+111 silly resolveWithNewModule balanced-match@1.0.0 checking installable status
+112 http fetch GET 200 https://registry.npmjs.org/nan 13ms
+113 silly pacote range manifest for nan@^2.0.9 fetched in 20ms
+114 silly resolveWithNewModule nan@2.6.2 checking installable status
+115 http fetch GET 200 https://registry.npmjs.org/optimist 29ms
+116 silly pacote range manifest for optimist@~0.4.0 fetched in 37ms
+117 silly resolveWithNewModule optimist@0.4.0 checking installable status
+118 http fetch GET 200 https://registry.npmjs.org/cson-parser 520ms
+119 silly pacote version manifest for cson-parser@1.0.9 fetched in 527ms
+120 silly resolveWithNewModule cson-parser@1.0.9 checking installable status
+121 http fetch GET 200 https://registry.npmjs.org/coffee-script 17ms
+122 silly pacote version manifest for coffee-script@1.9.0 fetched in 26ms
+123 silly resolveWithNewModule coffee-script@1.9.0 checking installable status
+124 http fetch GET 200 https://registry.npmjs.org/wordwrap 9ms
+125 silly pacote range manifest for wordwrap@~0.0.2 fetched in 11ms
+126 silly resolveWithNewModule wordwrap@0.0.3 checking installable status
+127 silly currentTree apm-install-dir-117722-23905-1hbh6ux.42lk
+128 silly idealTree apm-install-dir-117722-23905-1hbh6ux.42lk
+128 silly idealTree └─┬ bracket-matcher@0.87.3
+128 silly idealTree   ├── async@1.5.2
+128 silly idealTree   ├── balanced-match@1.0.0
+128 silly idealTree   ├── brace-expansion@1.1.8
+128 silly idealTree   ├── coffee-script@1.9.0
+128 silly idealTree   ├── concat-map@0.0.1
+128 silly idealTree   ├── cson-parser@1.0.9
+128 silly idealTree   ├── d@0.1.1
+128 silly idealTree   ├── emissary@1.3.3
+128 silly idealTree   ├─┬ es5-ext@0.10.29
+128 silly idealTree   │ ├── d@1.0.0
+128 silly idealTree   │ ├── es6-iterator@2.0.1
+128 silly idealTree   │ └── es6-symbol@3.1.1
+128 silly idealTree   ├── es6-iterator@0.1.3
+128 silly idealTree   ├── es6-symbol@2.0.1
+128 silly idealTree   ├── es6-weak-map@0.1.4
+128 silly idealTree   ├── event-kit@2.3.0
+128 silly idealTree   ├── first-mate@7.0.7
+128 silly idealTree   ├── fs-plus@3.0.1
+128 silly idealTree   ├── fs.realpath@1.0.0
+128 silly idealTree   ├── glob@7.1.2
+128 silly idealTree   ├── grim@2.0.1
+128 silly idealTree   ├── inflight@1.0.6
+128 silly idealTree   ├── inherits@2.0.3
+128 silly idealTree   ├── minimatch@3.0.4
+128 silly idealTree   ├── minimist@0.0.8
+128 silly idealTree   ├── mixto@1.0.0
+128 silly idealTree   ├── mkdirp@0.5.1
+128 silly idealTree   ├── nan@2.6.2
+128 silly idealTree   ├── once@1.4.0
+128 silly idealTree   ├── oniguruma@6.2.1
+128 silly idealTree   ├── optimist@0.4.0
+128 silly idealTree   ├── path-is-absolute@1.0.1
+128 silly idealTree   ├── property-accessors@1.1.3
+128 silly idealTree   ├── rimraf@2.6.1
+128 silly idealTree   ├── season@6.0.0
+128 silly idealTree   ├── underscore-plus@1.6.6
+128 silly idealTree   ├── underscore@1.6.0
+128 silly idealTree   ├── wordwrap@0.0.3
+128 silly idealTree   └── wrappy@1.0.2
+129 silly install generateActionsToTake
+130 silly diffTrees action count 40
+131 silly diffTrees add async@1.5.2
+132 silly diffTrees add balanced-match@1.0.0
+133 silly diffTrees add coffee-script@1.9.0
+134 silly diffTrees add concat-map@0.0.1
+135 silly diffTrees add brace-expansion@1.1.8
+136 silly diffTrees add cson-parser@1.0.9
+137 silly diffTrees add es6-symbol@3.1.1
+138 silly diffTrees add es6-iterator@2.0.1
+139 silly diffTrees add es5-ext@0.10.29
+140 silly diffTrees add d@0.1.1
+141 silly diffTrees add d@1.0.0
+142 silly diffTrees add es6-symbol@2.0.1
+143 silly diffTrees add es6-iterator@0.1.3
+144 silly diffTrees add es6-weak-map@0.1.4
+145 silly diffTrees add event-kit@2.3.0
+146 silly diffTrees add fs.realpath@1.0.0
+147 silly diffTrees add grim@2.0.1
+148 silly diffTrees add inherits@2.0.3
+149 silly diffTrees add minimatch@3.0.4
+150 silly diffTrees add minimist@0.0.8
+151 silly diffTrees add mixto@1.0.0
+152 silly diffTrees add mkdirp@0.5.1
+153 silly diffTrees add nan@2.6.2
+154 silly diffTrees add oniguruma@6.2.1
+155 silly diffTrees add path-is-absolute@1.0.1
+156 silly diffTrees add property-accessors@1.1.3
+157 silly diffTrees add underscore@1.6.0
+158 silly diffTrees add underscore-plus@1.6.6
+159 silly diffTrees add emissary@1.3.3
+160 silly diffTrees add wordwrap@0.0.3
+161 silly diffTrees add optimist@0.4.0
+162 silly diffTrees add wrappy@1.0.2
+163 silly diffTrees add once@1.4.0
+164 silly diffTrees add inflight@1.0.6
+165 silly diffTrees add glob@7.1.2
+166 silly diffTrees add rimraf@2.6.1
+167 silly diffTrees add fs-plus@3.0.1
+168 silly diffTrees add season@6.0.0
+169 silly diffTrees add first-mate@7.0.7
+170 silly diffTrees add bracket-matcher@0.87.3
+171 silly decomposeActions action count 320
+172 silly decomposeActions fetch async@1.5.2
+173 silly decomposeActions extract async@1.5.2
+174 silly decomposeActions preinstall async@1.5.2
+175 silly decomposeActions build async@1.5.2
+176 silly decomposeActions install async@1.5.2
+177 silly decomposeActions postinstall async@1.5.2
+178 silly decomposeActions finalize async@1.5.2
+179 silly decomposeActions refresh-package-json async@1.5.2
+180 silly decomposeActions fetch balanced-match@1.0.0
+181 silly decomposeActions extract balanced-match@1.0.0
+182 silly decomposeActions preinstall balanced-match@1.0.0
+183 silly decomposeActions build balanced-match@1.0.0
+184 silly decomposeActions install balanced-match@1.0.0
+185 silly decomposeActions postinstall balanced-match@1.0.0
+186 silly decomposeActions finalize balanced-match@1.0.0
+187 silly decomposeActions refresh-package-json balanced-match@1.0.0
+188 silly decomposeActions fetch coffee-script@1.9.0
+189 silly decomposeActions extract coffee-script@1.9.0
+190 silly decomposeActions preinstall coffee-script@1.9.0
+191 silly decomposeActions build coffee-script@1.9.0
+192 silly decomposeActions install coffee-script@1.9.0
+193 silly decomposeActions postinstall coffee-script@1.9.0
+194 silly decomposeActions finalize coffee-script@1.9.0
+195 silly decomposeActions refresh-package-json coffee-script@1.9.0
+196 silly decomposeActions fetch concat-map@0.0.1
+197 silly decomposeActions extract concat-map@0.0.1
+198 silly decomposeActions preinstall concat-map@0.0.1
+199 silly decomposeActions build concat-map@0.0.1
+200 silly decomposeActions install concat-map@0.0.1
+201 silly decomposeActions postinstall concat-map@0.0.1
+202 silly decomposeActions finalize concat-map@0.0.1
+203 silly decomposeActions refresh-package-json concat-map@0.0.1
+204 silly decomposeActions fetch brace-expansion@1.1.8
+205 silly decomposeActions extract brace-expansion@1.1.8
+206 silly decomposeActions preinstall brace-expansion@1.1.8
+207 silly decomposeActions build brace-expansion@1.1.8
+208 silly decomposeActions install brace-expansion@1.1.8
+209 silly decomposeActions postinstall brace-expansion@1.1.8
+210 silly decomposeActions finalize brace-expansion@1.1.8
+211 silly decomposeActions refresh-package-json brace-expansion@1.1.8
+212 silly decomposeActions fetch cson-parser@1.0.9
+213 silly decomposeActions extract cson-parser@1.0.9
+214 silly decomposeActions preinstall cson-parser@1.0.9
+215 silly decomposeActions build cson-parser@1.0.9
+216 silly decomposeActions install cson-parser@1.0.9
+217 silly decomposeActions postinstall cson-parser@1.0.9
+218 silly decomposeActions finalize cson-parser@1.0.9
+219 silly decomposeActions refresh-package-json cson-parser@1.0.9
+220 silly decomposeActions fetch es6-symbol@3.1.1
+221 silly decomposeActions extract es6-symbol@3.1.1
+222 silly decomposeActions preinstall es6-symbol@3.1.1
+223 silly decomposeActions build es6-symbol@3.1.1
+224 silly decomposeActions install es6-symbol@3.1.1
+225 silly decomposeActions postinstall es6-symbol@3.1.1
+226 silly decomposeActions finalize es6-symbol@3.1.1
+227 silly decomposeActions refresh-package-json es6-symbol@3.1.1
+228 silly decomposeActions fetch es6-iterator@2.0.1
+229 silly decomposeActions extract es6-iterator@2.0.1
+230 silly decomposeActions preinstall es6-iterator@2.0.1
+231 silly decomposeActions build es6-iterator@2.0.1
+232 silly decomposeActions install es6-iterator@2.0.1
+233 silly decomposeActions postinstall es6-iterator@2.0.1
+234 silly decomposeActions finalize es6-iterator@2.0.1
+235 silly decomposeActions refresh-package-json es6-iterator@2.0.1
+236 silly decomposeActions fetch es5-ext@0.10.29
+237 silly decomposeActions extract es5-ext@0.10.29
+238 silly decomposeActions preinstall es5-ext@0.10.29
+239 silly decomposeActions build es5-ext@0.10.29
+240 silly decomposeActions install es5-ext@0.10.29
+241 silly decomposeActions postinstall es5-ext@0.10.29
+242 silly decomposeActions finalize es5-ext@0.10.29
+243 silly decomposeActions refresh-package-json es5-ext@0.10.29
+244 silly decomposeActions fetch d@0.1.1
+245 silly decomposeActions extract d@0.1.1
+246 silly decomposeActions preinstall d@0.1.1
+247 silly decomposeActions build d@0.1.1
+248 silly decomposeActions install d@0.1.1
+249 silly decomposeActions postinstall d@0.1.1
+250 silly decomposeActions finalize d@0.1.1
+251 silly decomposeActions refresh-package-json d@0.1.1
+252 silly decomposeActions fetch d@1.0.0
+253 silly decomposeActions extract d@1.0.0
+254 silly decomposeActions preinstall d@1.0.0
+255 silly decomposeActions build d@1.0.0
+256 silly decomposeActions install d@1.0.0
+257 silly decomposeActions postinstall d@1.0.0
+258 silly decomposeActions finalize d@1.0.0
+259 silly decomposeActions refresh-package-json d@1.0.0
+260 silly decomposeActions fetch es6-symbol@2.0.1
+261 silly decomposeActions extract es6-symbol@2.0.1
+262 silly decomposeActions preinstall es6-symbol@2.0.1
+263 silly decomposeActions build es6-symbol@2.0.1
+264 silly decomposeActions install es6-symbol@2.0.1
+265 silly decomposeActions postinstall es6-symbol@2.0.1
+266 silly decomposeActions finalize es6-symbol@2.0.1
+267 silly decomposeActions refresh-package-json es6-symbol@2.0.1
+268 silly decomposeActions fetch es6-iterator@0.1.3
+269 silly decomposeActions extract es6-iterator@0.1.3
+270 silly decomposeActions preinstall es6-iterator@0.1.3
+271 silly decomposeActions build es6-iterator@0.1.3
+272 silly decomposeActions install es6-iterator@0.1.3
+273 silly decomposeActions postinstall es6-iterator@0.1.3
+274 silly decomposeActions finalize es6-iterator@0.1.3
+275 silly decomposeActions refresh-package-json es6-iterator@0.1.3
+276 silly decomposeActions fetch es6-weak-map@0.1.4
+277 silly decomposeActions extract es6-weak-map@0.1.4
+278 silly decomposeActions preinstall es6-weak-map@0.1.4
+279 silly decomposeActions build es6-weak-map@0.1.4
+280 silly decomposeActions install es6-weak-map@0.1.4
+281 silly decomposeActions postinstall es6-weak-map@0.1.4
+282 silly decomposeActions finalize es6-weak-map@0.1.4
+283 silly decomposeActions refresh-package-json es6-weak-map@0.1.4
+284 silly decomposeActions fetch event-kit@2.3.0
+285 silly decomposeActions extract event-kit@2.3.0
+286 silly decomposeActions preinstall event-kit@2.3.0
+287 silly decomposeActions build event-kit@2.3.0
+288 silly decomposeActions install event-kit@2.3.0
+289 silly decomposeActions postinstall event-kit@2.3.0
+290 silly decomposeActions finalize event-kit@2.3.0
+291 silly decomposeActions refresh-package-json event-kit@2.3.0
+292 silly decomposeActions fetch fs.realpath@1.0.0
+293 silly decomposeActions extract fs.realpath@1.0.0
+294 silly decomposeActions preinstall fs.realpath@1.0.0
+295 silly decomposeActions build fs.realpath@1.0.0
+296 silly decomposeActions install fs.realpath@1.0.0
+297 silly decomposeActions postinstall fs.realpath@1.0.0
+298 silly decomposeActions finalize fs.realpath@1.0.0
+299 silly decomposeActions refresh-package-json fs.realpath@1.0.0
+300 silly decomposeActions fetch grim@2.0.1
+301 silly decomposeActions extract grim@2.0.1
+302 silly decomposeActions preinstall grim@2.0.1
+303 silly decomposeActions build grim@2.0.1
+304 silly decomposeActions install grim@2.0.1
+305 silly decomposeActions postinstall grim@2.0.1
+306 silly decomposeActions finalize grim@2.0.1
+307 silly decomposeActions refresh-package-json grim@2.0.1
+308 silly decomposeActions fetch inherits@2.0.3
+309 silly decomposeActions extract inherits@2.0.3
+310 silly decomposeActions preinstall inherits@2.0.3
+311 silly decomposeActions build inherits@2.0.3
+312 silly decomposeActions install inherits@2.0.3
+313 silly decomposeActions postinstall inherits@2.0.3
+314 silly decomposeActions finalize inherits@2.0.3
+315 silly decomposeActions refresh-package-json inherits@2.0.3
+316 silly decomposeActions fetch minimatch@3.0.4
+317 silly decomposeActions extract minimatch@3.0.4
+318 silly decomposeActions preinstall minimatch@3.0.4
+319 silly decomposeActions build minimatch@3.0.4
+320 silly decomposeActions install minimatch@3.0.4
+321 silly decomposeActions postinstall minimatch@3.0.4
+322 silly decomposeActions finalize minimatch@3.0.4
+323 silly decomposeActions refresh-package-json minimatch@3.0.4
+324 silly decomposeActions fetch minimist@0.0.8
+325 silly decomposeActions extract minimist@0.0.8
+326 silly decomposeActions preinstall minimist@0.0.8
+327 silly decomposeActions build minimist@0.0.8
+328 silly decomposeActions install minimist@0.0.8
+329 silly decomposeActions postinstall minimist@0.0.8
+330 silly decomposeActions finalize minimist@0.0.8
+331 silly decomposeActions refresh-package-json minimist@0.0.8
+332 silly decomposeActions fetch mixto@1.0.0
+333 silly decomposeActions extract mixto@1.0.0
+334 silly decomposeActions preinstall mixto@1.0.0
+335 silly decomposeActions build mixto@1.0.0
+336 silly decomposeActions install mixto@1.0.0
+337 silly decomposeActions postinstall mixto@1.0.0
+338 silly decomposeActions finalize mixto@1.0.0
+339 silly decomposeActions refresh-package-json mixto@1.0.0
+340 silly decomposeActions fetch mkdirp@0.5.1
+341 silly decomposeActions extract mkdirp@0.5.1
+342 silly decomposeActions preinstall mkdirp@0.5.1
+343 silly decomposeActions build mkdirp@0.5.1
+344 silly decomposeActions install mkdirp@0.5.1
+345 silly decomposeActions postinstall mkdirp@0.5.1
+346 silly decomposeActions finalize mkdirp@0.5.1
+347 silly decomposeActions refresh-package-json mkdirp@0.5.1
+348 silly decomposeActions fetch nan@2.6.2
+349 silly decomposeActions extract nan@2.6.2
+350 silly decomposeActions preinstall nan@2.6.2
+351 silly decomposeActions build nan@2.6.2
+352 silly decomposeActions install nan@2.6.2
+353 silly decomposeActions postinstall nan@2.6.2
+354 silly decomposeActions finalize nan@2.6.2
+355 silly decomposeActions refresh-package-json nan@2.6.2
+356 silly decomposeActions fetch oniguruma@6.2.1
+357 silly decomposeActions extract oniguruma@6.2.1
+358 silly decomposeActions preinstall oniguruma@6.2.1
+359 silly decomposeActions build oniguruma@6.2.1
+360 silly decomposeActions install oniguruma@6.2.1
+361 silly decomposeActions postinstall oniguruma@6.2.1
+362 silly decomposeActions finalize oniguruma@6.2.1
+363 silly decomposeActions refresh-package-json oniguruma@6.2.1
+364 silly decomposeActions fetch path-is-absolute@1.0.1
+365 silly decomposeActions extract path-is-absolute@1.0.1
+366 silly decomposeActions preinstall path-is-absolute@1.0.1
+367 silly decomposeActions build path-is-absolute@1.0.1
+368 silly decomposeActions install path-is-absolute@1.0.1
+369 silly decomposeActions postinstall path-is-absolute@1.0.1
+370 silly decomposeActions finalize path-is-absolute@1.0.1
+371 silly decomposeActions refresh-package-json path-is-absolute@1.0.1
+372 silly decomposeActions fetch property-accessors@1.1.3
+373 silly decomposeActions extract property-accessors@1.1.3
+374 silly decomposeActions preinstall property-accessors@1.1.3
+375 silly decomposeActions build property-accessors@1.1.3
+376 silly decomposeActions install property-accessors@1.1.3
+377 silly decomposeActions postinstall property-accessors@1.1.3
+378 silly decomposeActions finalize property-accessors@1.1.3
+379 silly decomposeActions refresh-package-json property-accessors@1.1.3
+380 silly decomposeActions fetch underscore@1.6.0
+381 silly decomposeActions extract underscore@1.6.0
+382 silly decomposeActions preinstall underscore@1.6.0
+383 silly decomposeActions build underscore@1.6.0
+384 silly decomposeActions install underscore@1.6.0
+385 silly decomposeActions postinstall underscore@1.6.0
+386 silly decomposeActions finalize underscore@1.6.0
+387 silly decomposeActions refresh-package-json underscore@1.6.0
+388 silly decomposeActions fetch underscore-plus@1.6.6
+389 silly decomposeActions extract underscore-plus@1.6.6
+390 silly decomposeActions preinstall underscore-plus@1.6.6
+391 silly decomposeActions build underscore-plus@1.6.6
+392 silly decomposeActions install underscore-plus@1.6.6
+393 silly decomposeActions postinstall underscore-plus@1.6.6
+394 silly decomposeActions finalize underscore-plus@1.6.6
+395 silly decomposeActions refresh-package-json underscore-plus@1.6.6
+396 silly decomposeActions fetch emissary@1.3.3
+397 silly decomposeActions extract emissary@1.3.3
+398 silly decomposeActions preinstall emissary@1.3.3
+399 silly decomposeActions build emissary@1.3.3
+400 silly decomposeActions install emissary@1.3.3
+401 silly decomposeActions postinstall emissary@1.3.3
+402 silly decomposeActions finalize emissary@1.3.3
+403 silly decomposeActions refresh-package-json emissary@1.3.3
+404 silly decomposeActions fetch wordwrap@0.0.3
+405 silly decomposeActions extract wordwrap@0.0.3
+406 silly decomposeActions preinstall wordwrap@0.0.3
+407 silly decomposeActions build wordwrap@0.0.3
+408 silly decomposeActions install wordwrap@0.0.3
+409 silly decomposeActions postinstall wordwrap@0.0.3
+410 silly decomposeActions finalize wordwrap@0.0.3
+411 silly decomposeActions refresh-package-json wordwrap@0.0.3
+412 silly decomposeActions fetch optimist@0.4.0
+413 silly decomposeActions extract optimist@0.4.0
+414 silly decomposeActions preinstall optimist@0.4.0
+415 silly decomposeActions build optimist@0.4.0
+416 silly decomposeActions install optimist@0.4.0
+417 silly decomposeActions postinstall optimist@0.4.0
+418 silly decomposeActions finalize optimist@0.4.0
+419 silly decomposeActions refresh-package-json optimist@0.4.0
+420 silly decomposeActions fetch wrappy@1.0.2
+421 silly decomposeActions extract wrappy@1.0.2
+422 silly decomposeActions preinstall wrappy@1.0.2
+423 silly decomposeActions build wrappy@1.0.2
+424 silly decomposeActions install wrappy@1.0.2
+425 silly decomposeActions postinstall wrappy@1.0.2
+426 silly decomposeActions finalize wrappy@1.0.2
+427 silly decomposeActions refresh-package-json wrappy@1.0.2
+428 silly decomposeActions fetch once@1.4.0
+429 silly decomposeActions extract once@1.4.0
+430 silly decomposeActions preinstall once@1.4.0
+431 silly decomposeActions build once@1.4.0
+432 silly decomposeActions install once@1.4.0
+433 silly decomposeActions postinstall once@1.4.0
+434 silly decomposeActions finalize once@1.4.0
+435 silly decomposeActions refresh-package-json once@1.4.0
+436 silly decomposeActions fetch inflight@1.0.6
+437 silly decomposeActions extract inflight@1.0.6
+438 silly decomposeActions preinstall inflight@1.0.6
+439 silly decomposeActions build inflight@1.0.6
+440 silly decomposeActions install inflight@1.0.6
+441 silly decomposeActions postinstall inflight@1.0.6
+442 silly decomposeActions finalize inflight@1.0.6
+443 silly decomposeActions refresh-package-json inflight@1.0.6
+444 silly decomposeActions fetch glob@7.1.2
+445 silly decomposeActions extract glob@7.1.2
+446 silly decomposeActions preinstall glob@7.1.2
+447 silly decomposeActions build glob@7.1.2
+448 silly decomposeActions install glob@7.1.2
+449 silly decomposeActions postinstall glob@7.1.2
+450 silly decomposeActions finalize glob@7.1.2
+451 silly decomposeActions refresh-package-json glob@7.1.2
+452 silly decomposeActions fetch rimraf@2.6.1
+453 silly decomposeActions extract rimraf@2.6.1
+454 silly decomposeActions preinstall rimraf@2.6.1
+455 silly decomposeActions build rimraf@2.6.1
+456 silly decomposeActions install rimraf@2.6.1
+457 silly decomposeActions postinstall rimraf@2.6.1
+458 silly decomposeActions finalize rimraf@2.6.1
+459 silly decomposeActions refresh-package-json rimraf@2.6.1
+460 silly decomposeActions fetch fs-plus@3.0.1
+461 silly decomposeActions extract fs-plus@3.0.1
+462 silly decomposeActions preinstall fs-plus@3.0.1
+463 silly decomposeActions build fs-plus@3.0.1
+464 silly decomposeActions install fs-plus@3.0.1
+465 silly decomposeActions postinstall fs-plus@3.0.1
+466 silly decomposeActions finalize fs-plus@3.0.1
+467 silly decomposeActions refresh-package-json fs-plus@3.0.1
+468 silly decomposeActions fetch season@6.0.0
+469 silly decomposeActions extract season@6.0.0
+470 silly decomposeActions preinstall season@6.0.0
+471 silly decomposeActions build season@6.0.0
+472 silly decomposeActions install season@6.0.0
+473 silly decomposeActions postinstall season@6.0.0
+474 silly decomposeActions finalize season@6.0.0
+475 silly decomposeActions refresh-package-json season@6.0.0
+476 silly decomposeActions fetch first-mate@7.0.7
+477 silly decomposeActions extract first-mate@7.0.7
+478 silly decomposeActions preinstall first-mate@7.0.7
+479 silly decomposeActions build first-mate@7.0.7
+480 silly decomposeActions install first-mate@7.0.7
+481 silly decomposeActions postinstall first-mate@7.0.7
+482 silly decomposeActions finalize first-mate@7.0.7
+483 silly decomposeActions refresh-package-json first-mate@7.0.7
+484 silly decomposeActions fetch bracket-matcher@0.87.3
+485 silly decomposeActions extract bracket-matcher@0.87.3
+486 silly decomposeActions preinstall bracket-matcher@0.87.3
+487 silly decomposeActions build bracket-matcher@0.87.3
+488 silly decomposeActions install bracket-matcher@0.87.3
+489 silly decomposeActions postinstall bracket-matcher@0.87.3
+490 silly decomposeActions finalize bracket-matcher@0.87.3
+491 silly decomposeActions refresh-package-json bracket-matcher@0.87.3
+492 silly install executeActions
+493 silly doSerial global-install 320
+494 verbose correctMkdir /home/marcus/.atom/.apm/_locks correctMkdir not in flight; initializing
+495 verbose lock using /home/marcus/.atom/.apm/_locks/staging-eda84e2dd2c0ee59.lock for /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/.staging
+496 silly doParallel extract 320
+497 silly extract async@1.5.2
+498 silly extract balanced-match@1.0.0
+499 silly extract coffee-script@1.9.0
+500 silly extract concat-map@0.0.1
+501 silly extract brace-expansion@1.1.8
+502 silly extract cson-parser@1.0.9
+503 silly extract es6-symbol@3.1.1
+504 silly extract es6-iterator@2.0.1
+505 silly extract es5-ext@0.10.29
+506 silly extract d@0.1.1
+507 silly extract d@1.0.0
+508 silly extract es6-symbol@2.0.1
+509 silly extract es6-iterator@0.1.3
+510 silly extract es6-weak-map@0.1.4
+511 silly extract event-kit@2.3.0
+512 silly extract fs.realpath@1.0.0
+513 silly extract grim@2.0.1
+514 silly extract inherits@2.0.3
+515 silly extract minimatch@3.0.4
+516 silly extract minimist@0.0.8
+517 silly extract mixto@1.0.0
+518 silly extract mkdirp@0.5.1
+519 silly extract nan@2.6.2
+520 silly extract oniguruma@6.2.1
+521 silly extract path-is-absolute@1.0.1
+522 silly extract property-accessors@1.1.3
+523 silly extract underscore@1.6.0
+524 silly extract underscore-plus@1.6.6
+525 silly extract emissary@1.3.3
+526 silly extract wordwrap@0.0.3
+527 silly extract optimist@0.4.0
+528 silly extract wrappy@1.0.2
+529 silly extract once@1.4.0
+530 silly extract inflight@1.0.6
+531 silly extract glob@7.1.2
+532 silly extract rimraf@2.6.1
+533 silly extract fs-plus@3.0.1
+534 silly extract season@6.0.0
+535 silly extract first-mate@7.0.7
+536 silly extract bracket-matcher@0.87.3
+537 silly pacote trying bracket-matcher@file:/tmp/d-117722-23905-169wg0e.d6ca/package.tgz by hash: sha1-4GUFvPaB+HDsWzM8VzCWSUUSsH0=
+538 silly pacote data for sha1-4GUFvPaB+HDsWzM8VzCWSUUSsH0= not present. Using manifest.
+539 silly pacote bracket-matcher@file:/tmp/d-117722-23905-169wg0e.d6ca/package.tgz extracted in 84ms
+540 silly doReverseSerial unbuild 320
+541 silly doSerial remove 320
+542 silly doSerial move 320
+543 silly doSerial finalize 320
+544 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/async
+545 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/balanced-match
+546 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/coffee-script
+547 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/concat-map
+548 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/brace-expansion
+549 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/cson-parser
+550 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext/node_modules/es6-symbol
+551 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext/node_modules/es6-iterator
+552 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext
+553 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/d
+554 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext/node_modules/d
+555 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es6-symbol
+556 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es6-iterator
+557 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es6-weak-map
+558 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/event-kit
+559 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/fs.realpath
+560 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/grim
+561 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/inherits
+562 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/minimatch
+563 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/minimist
+564 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/mixto
+565 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/mkdirp
+566 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/nan
+567 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/oniguruma
+568 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/path-is-absolute
+569 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/property-accessors
+570 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/underscore
+571 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/underscore-plus
+572 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/emissary
+573 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/wordwrap
+574 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/optimist
+575 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/wrappy
+576 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/once
+577 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/inflight
+578 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/glob
+579 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/rimraf
+580 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/fs-plus
+581 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/season
+582 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/first-mate
+583 silly finalize /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher
+584 silly doParallel refresh-package-json 320
+585 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/async
+586 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/balanced-match
+587 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/coffee-script
+588 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/concat-map
+589 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/brace-expansion
+590 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/cson-parser
+591 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext/node_modules/es6-symbol
+592 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext/node_modules/es6-iterator
+593 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext
+594 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/d
+595 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext/node_modules/d
+596 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es6-symbol
+597 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es6-iterator
+598 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es6-weak-map
+599 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/event-kit
+600 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/fs.realpath
+601 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/grim
+602 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/inherits
+603 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/minimatch
+604 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/minimist
+605 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/mixto
+606 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/mkdirp
+607 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/nan
+608 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/oniguruma
+609 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/path-is-absolute
+610 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/property-accessors
+611 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/underscore
+612 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/underscore-plus
+613 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/emissary
+614 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/wordwrap
+615 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/optimist
+616 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/wrappy
+617 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/once
+618 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/inflight
+619 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/glob
+620 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/rimraf
+621 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/fs-plus
+622 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/season
+623 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/first-mate
+624 silly refresh-package-json /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher
+625 silly doParallel preinstall 320
+626 silly preinstall async@1.5.2
+627 info lifecycle async@1.5.2~preinstall: async@1.5.2
+628 silly preinstall balanced-match@1.0.0
+629 info lifecycle balanced-match@1.0.0~preinstall: balanced-match@1.0.0
+630 silly preinstall coffee-script@1.9.0
+631 info lifecycle coffee-script@1.9.0~preinstall: coffee-script@1.9.0
+632 silly preinstall concat-map@0.0.1
+633 info lifecycle concat-map@0.0.1~preinstall: concat-map@0.0.1
+634 silly preinstall brace-expansion@1.1.8
+635 info lifecycle brace-expansion@1.1.8~preinstall: brace-expansion@1.1.8
+636 silly preinstall cson-parser@1.0.9
+637 info lifecycle cson-parser@1.0.9~preinstall: cson-parser@1.0.9
+638 silly preinstall es6-symbol@3.1.1
+639 info lifecycle es6-symbol@3.1.1~preinstall: es6-symbol@3.1.1
+640 silly preinstall es6-iterator@2.0.1
+641 info lifecycle es6-iterator@2.0.1~preinstall: es6-iterator@2.0.1
+642 silly preinstall es5-ext@0.10.29
+643 info lifecycle es5-ext@0.10.29~preinstall: es5-ext@0.10.29
+644 silly preinstall d@0.1.1
+645 info lifecycle d@0.1.1~preinstall: d@0.1.1
+646 silly preinstall d@1.0.0
+647 info lifecycle d@1.0.0~preinstall: d@1.0.0
+648 silly preinstall es6-symbol@2.0.1
+649 info lifecycle es6-symbol@2.0.1~preinstall: es6-symbol@2.0.1
+650 silly preinstall es6-iterator@0.1.3
+651 info lifecycle es6-iterator@0.1.3~preinstall: es6-iterator@0.1.3
+652 silly preinstall es6-weak-map@0.1.4
+653 info lifecycle es6-weak-map@0.1.4~preinstall: es6-weak-map@0.1.4
+654 silly preinstall event-kit@2.3.0
+655 info lifecycle event-kit@2.3.0~preinstall: event-kit@2.3.0
+656 silly preinstall fs.realpath@1.0.0
+657 info lifecycle fs.realpath@1.0.0~preinstall: fs.realpath@1.0.0
+658 silly preinstall grim@2.0.1
+659 info lifecycle grim@2.0.1~preinstall: grim@2.0.1
+660 silly preinstall inherits@2.0.3
+661 info lifecycle inherits@2.0.3~preinstall: inherits@2.0.3
+662 silly preinstall minimatch@3.0.4
+663 info lifecycle minimatch@3.0.4~preinstall: minimatch@3.0.4
+664 silly preinstall minimist@0.0.8
+665 info lifecycle minimist@0.0.8~preinstall: minimist@0.0.8
+666 silly preinstall mixto@1.0.0
+667 info lifecycle mixto@1.0.0~preinstall: mixto@1.0.0
+668 silly preinstall mkdirp@0.5.1
+669 info lifecycle mkdirp@0.5.1~preinstall: mkdirp@0.5.1
+670 silly preinstall nan@2.6.2
+671 info lifecycle nan@2.6.2~preinstall: nan@2.6.2
+672 silly preinstall oniguruma@6.2.1
+673 info lifecycle oniguruma@6.2.1~preinstall: oniguruma@6.2.1
+674 silly preinstall path-is-absolute@1.0.1
+675 info lifecycle path-is-absolute@1.0.1~preinstall: path-is-absolute@1.0.1
+676 silly preinstall property-accessors@1.1.3
+677 info lifecycle property-accessors@1.1.3~preinstall: property-accessors@1.1.3
+678 silly preinstall underscore@1.6.0
+679 info lifecycle underscore@1.6.0~preinstall: underscore@1.6.0
+680 silly preinstall underscore-plus@1.6.6
+681 info lifecycle underscore-plus@1.6.6~preinstall: underscore-plus@1.6.6
+682 silly preinstall emissary@1.3.3
+683 info lifecycle emissary@1.3.3~preinstall: emissary@1.3.3
+684 silly preinstall wordwrap@0.0.3
+685 info lifecycle wordwrap@0.0.3~preinstall: wordwrap@0.0.3
+686 silly preinstall optimist@0.4.0
+687 info lifecycle optimist@0.4.0~preinstall: optimist@0.4.0
+688 silly preinstall wrappy@1.0.2
+689 info lifecycle wrappy@1.0.2~preinstall: wrappy@1.0.2
+690 silly preinstall once@1.4.0
+691 info lifecycle once@1.4.0~preinstall: once@1.4.0
+692 silly preinstall inflight@1.0.6
+693 info lifecycle inflight@1.0.6~preinstall: inflight@1.0.6
+694 silly preinstall glob@7.1.2
+695 info lifecycle glob@7.1.2~preinstall: glob@7.1.2
+696 silly preinstall rimraf@2.6.1
+697 info lifecycle rimraf@2.6.1~preinstall: rimraf@2.6.1
+698 silly preinstall fs-plus@3.0.1
+699 info lifecycle fs-plus@3.0.1~preinstall: fs-plus@3.0.1
+700 silly preinstall season@6.0.0
+701 info lifecycle season@6.0.0~preinstall: season@6.0.0
+702 silly preinstall first-mate@7.0.7
+703 info lifecycle first-mate@7.0.7~preinstall: first-mate@7.0.7
+704 silly preinstall bracket-matcher@0.87.3
+705 info lifecycle bracket-matcher@0.87.3~preinstall: bracket-matcher@0.87.3
+706 silly doSerial build 320
+707 silly build async@1.5.2
+708 info linkStuff async@1.5.2
+709 silly linkStuff async@1.5.2 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+710 verbose linkBins async@1.5.2
+711 verbose linkMans async@1.5.2
+712 silly build balanced-match@1.0.0
+713 info linkStuff balanced-match@1.0.0
+714 silly linkStuff balanced-match@1.0.0 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+715 verbose linkBins balanced-match@1.0.0
+716 verbose linkMans balanced-match@1.0.0
+717 silly build coffee-script@1.9.0
+718 info linkStuff coffee-script@1.9.0
+719 silly linkStuff coffee-script@1.9.0 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+720 verbose linkBins coffee-script@1.9.0
+721 verbose linkBins [ { coffee: './bin/coffee', cake: './bin/cake' },
+721 verbose linkBins   '/tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/.bin',
+721 verbose linkBins   false ]
+722 verbose linkMans coffee-script@1.9.0
+723 silly build concat-map@0.0.1
+724 info linkStuff concat-map@0.0.1
+725 silly linkStuff concat-map@0.0.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+726 verbose linkBins concat-map@0.0.1
+727 verbose linkMans concat-map@0.0.1
+728 silly build brace-expansion@1.1.8
+729 info linkStuff brace-expansion@1.1.8
+730 silly linkStuff brace-expansion@1.1.8 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+731 verbose linkBins brace-expansion@1.1.8
+732 verbose linkMans brace-expansion@1.1.8
+733 silly build cson-parser@1.0.9
+734 info linkStuff cson-parser@1.0.9
+735 silly linkStuff cson-parser@1.0.9 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+736 verbose linkBins cson-parser@1.0.9
+737 verbose linkMans cson-parser@1.0.9
+738 silly build es6-symbol@3.1.1
+739 info linkStuff es6-symbol@3.1.1
+740 silly linkStuff es6-symbol@3.1.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext/node_modules as its parent node_modules
+741 verbose linkBins es6-symbol@3.1.1
+742 verbose linkMans es6-symbol@3.1.1
+743 silly build es6-iterator@2.0.1
+744 info linkStuff es6-iterator@2.0.1
+745 silly linkStuff es6-iterator@2.0.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext/node_modules as its parent node_modules
+746 verbose linkBins es6-iterator@2.0.1
+747 verbose linkMans es6-iterator@2.0.1
+748 silly build es5-ext@0.10.29
+749 info linkStuff es5-ext@0.10.29
+750 silly linkStuff es5-ext@0.10.29 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+751 verbose linkBins es5-ext@0.10.29
+752 verbose linkMans es5-ext@0.10.29
+753 silly build d@0.1.1
+754 info linkStuff d@0.1.1
+755 silly linkStuff d@0.1.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+756 verbose linkBins d@0.1.1
+757 verbose linkMans d@0.1.1
+758 silly build d@1.0.0
+759 info linkStuff d@1.0.0
+760 silly linkStuff d@1.0.0 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/es5-ext/node_modules as its parent node_modules
+761 verbose linkBins d@1.0.0
+762 verbose linkMans d@1.0.0
+763 silly build es6-symbol@2.0.1
+764 info linkStuff es6-symbol@2.0.1
+765 silly linkStuff es6-symbol@2.0.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+766 verbose linkBins es6-symbol@2.0.1
+767 verbose linkMans es6-symbol@2.0.1
+768 silly build es6-iterator@0.1.3
+769 info linkStuff es6-iterator@0.1.3
+770 silly linkStuff es6-iterator@0.1.3 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+771 verbose linkBins es6-iterator@0.1.3
+772 verbose linkMans es6-iterator@0.1.3
+773 silly build es6-weak-map@0.1.4
+774 info linkStuff es6-weak-map@0.1.4
+775 silly linkStuff es6-weak-map@0.1.4 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+776 verbose linkBins es6-weak-map@0.1.4
+777 verbose linkMans es6-weak-map@0.1.4
+778 silly build event-kit@2.3.0
+779 info linkStuff event-kit@2.3.0
+780 silly linkStuff event-kit@2.3.0 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+781 verbose linkBins event-kit@2.3.0
+782 verbose linkMans event-kit@2.3.0
+783 silly build fs.realpath@1.0.0
+784 info linkStuff fs.realpath@1.0.0
+785 silly linkStuff fs.realpath@1.0.0 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+786 verbose linkBins fs.realpath@1.0.0
+787 verbose linkMans fs.realpath@1.0.0
+788 silly build grim@2.0.1
+789 info linkStuff grim@2.0.1
+790 silly linkStuff grim@2.0.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+791 verbose linkBins grim@2.0.1
+792 verbose linkMans grim@2.0.1
+793 silly build inherits@2.0.3
+794 info linkStuff inherits@2.0.3
+795 silly linkStuff inherits@2.0.3 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+796 verbose linkBins inherits@2.0.3
+797 verbose linkMans inherits@2.0.3
+798 silly build minimatch@3.0.4
+799 info linkStuff minimatch@3.0.4
+800 silly linkStuff minimatch@3.0.4 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+801 verbose linkBins minimatch@3.0.4
+802 verbose linkMans minimatch@3.0.4
+803 silly build minimist@0.0.8
+804 info linkStuff minimist@0.0.8
+805 silly linkStuff minimist@0.0.8 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+806 verbose linkBins minimist@0.0.8
+807 verbose linkMans minimist@0.0.8
+808 silly build mixto@1.0.0
+809 info linkStuff mixto@1.0.0
+810 silly linkStuff mixto@1.0.0 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+811 verbose linkBins mixto@1.0.0
+812 verbose linkMans mixto@1.0.0
+813 silly build mkdirp@0.5.1
+814 info linkStuff mkdirp@0.5.1
+815 silly linkStuff mkdirp@0.5.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+816 verbose linkBins mkdirp@0.5.1
+817 verbose linkBins [ { mkdirp: 'bin/cmd.js' },
+817 verbose linkBins   '/tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/.bin',
+817 verbose linkBins   false ]
+818 verbose linkMans mkdirp@0.5.1
+819 silly build nan@2.6.2
+820 info linkStuff nan@2.6.2
+821 silly linkStuff nan@2.6.2 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+822 verbose linkBins nan@2.6.2
+823 verbose linkMans nan@2.6.2
+824 silly build oniguruma@6.2.1
+825 info linkStuff oniguruma@6.2.1
+826 silly linkStuff oniguruma@6.2.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+827 verbose linkBins oniguruma@6.2.1
+828 verbose linkMans oniguruma@6.2.1
+829 silly build path-is-absolute@1.0.1
+830 info linkStuff path-is-absolute@1.0.1
+831 silly linkStuff path-is-absolute@1.0.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+832 verbose linkBins path-is-absolute@1.0.1
+833 verbose linkMans path-is-absolute@1.0.1
+834 silly build property-accessors@1.1.3
+835 info linkStuff property-accessors@1.1.3
+836 silly linkStuff property-accessors@1.1.3 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+837 verbose linkBins property-accessors@1.1.3
+838 verbose linkMans property-accessors@1.1.3
+839 silly build underscore@1.6.0
+840 info linkStuff underscore@1.6.0
+841 silly linkStuff underscore@1.6.0 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+842 verbose linkBins underscore@1.6.0
+843 verbose linkMans underscore@1.6.0
+844 silly build underscore-plus@1.6.6
+845 info linkStuff underscore-plus@1.6.6
+846 silly linkStuff underscore-plus@1.6.6 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+847 verbose linkBins underscore-plus@1.6.6
+848 verbose linkMans underscore-plus@1.6.6
+849 silly build emissary@1.3.3
+850 info linkStuff emissary@1.3.3
+851 silly linkStuff emissary@1.3.3 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+852 verbose linkBins emissary@1.3.3
+853 verbose linkMans emissary@1.3.3
+854 silly build wordwrap@0.0.3
+855 info linkStuff wordwrap@0.0.3
+856 silly linkStuff wordwrap@0.0.3 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+857 verbose linkBins wordwrap@0.0.3
+858 verbose linkMans wordwrap@0.0.3
+859 silly build optimist@0.4.0
+860 info linkStuff optimist@0.4.0
+861 silly linkStuff optimist@0.4.0 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+862 verbose linkBins optimist@0.4.0
+863 verbose linkMans optimist@0.4.0
+864 silly build wrappy@1.0.2
+865 info linkStuff wrappy@1.0.2
+866 silly linkStuff wrappy@1.0.2 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+867 verbose linkBins wrappy@1.0.2
+868 verbose linkMans wrappy@1.0.2
+869 silly build once@1.4.0
+870 info linkStuff once@1.4.0
+871 silly linkStuff once@1.4.0 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+872 verbose linkBins once@1.4.0
+873 verbose linkMans once@1.4.0
+874 silly build inflight@1.0.6
+875 info linkStuff inflight@1.0.6
+876 silly linkStuff inflight@1.0.6 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+877 verbose linkBins inflight@1.0.6
+878 verbose linkMans inflight@1.0.6
+879 silly build glob@7.1.2
+880 info linkStuff glob@7.1.2
+881 silly linkStuff glob@7.1.2 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+882 verbose linkBins glob@7.1.2
+883 verbose linkMans glob@7.1.2
+884 silly build rimraf@2.6.1
+885 info linkStuff rimraf@2.6.1
+886 silly linkStuff rimraf@2.6.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+887 verbose linkBins rimraf@2.6.1
+888 verbose linkBins [ { rimraf: './bin.js' },
+888 verbose linkBins   '/tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/.bin',
+888 verbose linkBins   false ]
+889 verbose linkMans rimraf@2.6.1
+890 silly build fs-plus@3.0.1
+891 info linkStuff fs-plus@3.0.1
+892 silly linkStuff fs-plus@3.0.1 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+893 verbose linkBins fs-plus@3.0.1
+894 verbose linkMans fs-plus@3.0.1
+895 silly build season@6.0.0
+896 info linkStuff season@6.0.0
+897 silly linkStuff season@6.0.0 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+898 verbose linkBins season@6.0.0
+899 verbose linkBins [ { csonc: './bin/csonc' },
+899 verbose linkBins   '/tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/.bin',
+899 verbose linkBins   false ]
+900 verbose linkMans season@6.0.0
+901 silly build first-mate@7.0.7
+902 info linkStuff first-mate@7.0.7
+903 silly linkStuff first-mate@7.0.7 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules as its parent node_modules
+904 verbose linkBins first-mate@7.0.7
+905 verbose linkMans first-mate@7.0.7
+906 silly build bracket-matcher@0.87.3
+907 info linkStuff bracket-matcher@0.87.3
+908 silly linkStuff bracket-matcher@0.87.3 has /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules as its parent node_modules
+909 verbose linkBins bracket-matcher@0.87.3
+910 verbose linkMans bracket-matcher@0.87.3
+911 silly doSerial global-link 320
+912 silly doParallel update-linked 320
+913 silly doSerial install 320
+914 silly install async@1.5.2
+915 info lifecycle async@1.5.2~install: async@1.5.2
+916 silly install balanced-match@1.0.0
+917 info lifecycle balanced-match@1.0.0~install: balanced-match@1.0.0
+918 silly install coffee-script@1.9.0
+919 info lifecycle coffee-script@1.9.0~install: coffee-script@1.9.0
+920 silly install concat-map@0.0.1
+921 info lifecycle concat-map@0.0.1~install: concat-map@0.0.1
+922 silly install brace-expansion@1.1.8
+923 info lifecycle brace-expansion@1.1.8~install: brace-expansion@1.1.8
+924 silly install cson-parser@1.0.9
+925 info lifecycle cson-parser@1.0.9~install: cson-parser@1.0.9
+926 silly install es6-symbol@3.1.1
+927 info lifecycle es6-symbol@3.1.1~install: es6-symbol@3.1.1
+928 silly install es6-iterator@2.0.1
+929 info lifecycle es6-iterator@2.0.1~install: es6-iterator@2.0.1
+930 silly install es5-ext@0.10.29
+931 info lifecycle es5-ext@0.10.29~install: es5-ext@0.10.29
+932 silly install d@0.1.1
+933 info lifecycle d@0.1.1~install: d@0.1.1
+934 silly install d@1.0.0
+935 info lifecycle d@1.0.0~install: d@1.0.0
+936 silly install es6-symbol@2.0.1
+937 info lifecycle es6-symbol@2.0.1~install: es6-symbol@2.0.1
+938 silly install es6-iterator@0.1.3
+939 info lifecycle es6-iterator@0.1.3~install: es6-iterator@0.1.3
+940 silly install es6-weak-map@0.1.4
+941 info lifecycle es6-weak-map@0.1.4~install: es6-weak-map@0.1.4
+942 silly install event-kit@2.3.0
+943 info lifecycle event-kit@2.3.0~install: event-kit@2.3.0
+944 silly install fs.realpath@1.0.0
+945 info lifecycle fs.realpath@1.0.0~install: fs.realpath@1.0.0
+946 silly install grim@2.0.1
+947 info lifecycle grim@2.0.1~install: grim@2.0.1
+948 silly install inherits@2.0.3
+949 info lifecycle inherits@2.0.3~install: inherits@2.0.3
+950 silly install minimatch@3.0.4
+951 info lifecycle minimatch@3.0.4~install: minimatch@3.0.4
+952 silly install minimist@0.0.8
+953 info lifecycle minimist@0.0.8~install: minimist@0.0.8
+954 silly install mixto@1.0.0
+955 info lifecycle mixto@1.0.0~install: mixto@1.0.0
+956 silly install mkdirp@0.5.1
+957 info lifecycle mkdirp@0.5.1~install: mkdirp@0.5.1
+958 silly install nan@2.6.2
+959 info lifecycle nan@2.6.2~install: nan@2.6.2
+960 silly install oniguruma@6.2.1
+961 info lifecycle oniguruma@6.2.1~install: oniguruma@6.2.1
+962 verbose lifecycle oniguruma@6.2.1~install: unsafe-perm in lifecycle true
+963 verbose lifecycle oniguruma@6.2.1~install: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/oniguruma/node_modules/.bin:/tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/.bin:/tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/.bin:/usr/lib/node_modules/atom-package-manager/bin:/home/marcus/.anaconda3/bin:/home/marcus/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+964 verbose lifecycle oniguruma@6.2.1~install: CWD: /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/bracket-matcher/node_modules/oniguruma
+965 silly lifecycle oniguruma@6.2.1~install: Args: [ '-c', 'node-gyp rebuild' ]
+966 silly lifecycle oniguruma@6.2.1~install: Returned: code: null  signal: SIGINT
+967 silly install path-is-absolute@1.0.1
+968 info lifecycle path-is-absolute@1.0.1~install: path-is-absolute@1.0.1
+969 silly install property-accessors@1.1.3
+970 info lifecycle property-accessors@1.1.3~install: property-accessors@1.1.3
+971 silly install underscore@1.6.0
+972 info lifecycle underscore@1.6.0~install: underscore@1.6.0
+973 silly install underscore-plus@1.6.6
+974 info lifecycle underscore-plus@1.6.6~install: underscore-plus@1.6.6
+975 silly install emissary@1.3.3
+976 info lifecycle emissary@1.3.3~install: emissary@1.3.3
+977 silly install wordwrap@0.0.3
+978 info lifecycle wordwrap@0.0.3~install: wordwrap@0.0.3
+979 silly install optimist@0.4.0
+980 info lifecycle optimist@0.4.0~install: optimist@0.4.0
+981 silly install wrappy@1.0.2
+982 info lifecycle wrappy@1.0.2~install: wrappy@1.0.2
+983 silly install once@1.4.0
+984 info lifecycle once@1.4.0~install: once@1.4.0
+985 silly install inflight@1.0.6
+986 info lifecycle inflight@1.0.6~install: inflight@1.0.6
+987 silly install glob@7.1.2
+988 info lifecycle glob@7.1.2~install: glob@7.1.2
+989 silly install rimraf@2.6.1
+990 info lifecycle rimraf@2.6.1~install: rimraf@2.6.1
+991 silly install fs-plus@3.0.1
+992 info lifecycle fs-plus@3.0.1~install: fs-plus@3.0.1
+993 silly install season@6.0.0
+994 info lifecycle season@6.0.0~install: season@6.0.0
+995 silly install first-mate@7.0.7
+996 info lifecycle first-mate@7.0.7~install: first-mate@7.0.7
+997 silly install bracket-matcher@0.87.3
+998 info lifecycle bracket-matcher@0.87.3~install: bracket-matcher@0.87.3
+999 silly doSerial postinstall 320
+1000 silly postinstall async@1.5.2
+1001 info lifecycle async@1.5.2~postinstall: async@1.5.2
+1002 silly postinstall balanced-match@1.0.0
+1003 info lifecycle balanced-match@1.0.0~postinstall: balanced-match@1.0.0
+1004 silly postinstall coffee-script@1.9.0
+1005 info lifecycle coffee-script@1.9.0~postinstall: coffee-script@1.9.0
+1006 silly postinstall concat-map@0.0.1
+1007 info lifecycle concat-map@0.0.1~postinstall: concat-map@0.0.1
+1008 silly postinstall brace-expansion@1.1.8
+1009 info lifecycle brace-expansion@1.1.8~postinstall: brace-expansion@1.1.8
+1010 silly postinstall cson-parser@1.0.9
+1011 info lifecycle cson-parser@1.0.9~postinstall: cson-parser@1.0.9
+1012 silly postinstall es6-symbol@3.1.1
+1013 info lifecycle es6-symbol@3.1.1~postinstall: es6-symbol@3.1.1
+1014 silly postinstall es6-iterator@2.0.1
+1015 info lifecycle es6-iterator@2.0.1~postinstall: es6-iterator@2.0.1
+1016 silly postinstall es5-ext@0.10.29
+1017 info lifecycle es5-ext@0.10.29~postinstall: es5-ext@0.10.29
+1018 silly postinstall d@0.1.1
+1019 info lifecycle d@0.1.1~postinstall: d@0.1.1
+1020 silly postinstall d@1.0.0
+1021 info lifecycle d@1.0.0~postinstall: d@1.0.0
+1022 silly postinstall es6-symbol@2.0.1
+1023 info lifecycle es6-symbol@2.0.1~postinstall: es6-symbol@2.0.1
+1024 silly postinstall es6-iterator@0.1.3
+1025 info lifecycle es6-iterator@0.1.3~postinstall: es6-iterator@0.1.3
+1026 silly postinstall es6-weak-map@0.1.4
+1027 info lifecycle es6-weak-map@0.1.4~postinstall: es6-weak-map@0.1.4
+1028 silly postinstall event-kit@2.3.0
+1029 info lifecycle event-kit@2.3.0~postinstall: event-kit@2.3.0
+1030 silly postinstall fs.realpath@1.0.0
+1031 info lifecycle fs.realpath@1.0.0~postinstall: fs.realpath@1.0.0
+1032 silly postinstall grim@2.0.1
+1033 info lifecycle grim@2.0.1~postinstall: grim@2.0.1
+1034 silly postinstall inherits@2.0.3
+1035 info lifecycle inherits@2.0.3~postinstall: inherits@2.0.3
+1036 silly postinstall minimatch@3.0.4
+1037 info lifecycle minimatch@3.0.4~postinstall: minimatch@3.0.4
+1038 silly postinstall minimist@0.0.8
+1039 info lifecycle minimist@0.0.8~postinstall: minimist@0.0.8
+1040 silly postinstall mixto@1.0.0
+1041 info lifecycle mixto@1.0.0~postinstall: mixto@1.0.0
+1042 silly postinstall mkdirp@0.5.1
+1043 info lifecycle mkdirp@0.5.1~postinstall: mkdirp@0.5.1
+1044 silly postinstall nan@2.6.2
+1045 info lifecycle nan@2.6.2~postinstall: nan@2.6.2
+1046 silly postinstall oniguruma@6.2.1
+1047 info lifecycle oniguruma@6.2.1~postinstall: oniguruma@6.2.1
+1048 silly postinstall path-is-absolute@1.0.1
+1049 info lifecycle path-is-absolute@1.0.1~postinstall: path-is-absolute@1.0.1
+1050 silly postinstall property-accessors@1.1.3
+1051 info lifecycle property-accessors@1.1.3~postinstall: property-accessors@1.1.3
+1052 silly postinstall underscore@1.6.0
+1053 info lifecycle underscore@1.6.0~postinstall: underscore@1.6.0
+1054 silly postinstall underscore-plus@1.6.6
+1055 info lifecycle underscore-plus@1.6.6~postinstall: underscore-plus@1.6.6
+1056 silly postinstall emissary@1.3.3
+1057 info lifecycle emissary@1.3.3~postinstall: emissary@1.3.3
+1058 silly postinstall wordwrap@0.0.3
+1059 info lifecycle wordwrap@0.0.3~postinstall: wordwrap@0.0.3
+1060 silly postinstall optimist@0.4.0
+1061 info lifecycle optimist@0.4.0~postinstall: optimist@0.4.0
+1062 silly postinstall wrappy@1.0.2
+1063 info lifecycle wrappy@1.0.2~postinstall: wrappy@1.0.2
+1064 silly postinstall once@1.4.0
+1065 info lifecycle once@1.4.0~postinstall: once@1.4.0
+1066 silly postinstall inflight@1.0.6
+1067 info lifecycle inflight@1.0.6~postinstall: inflight@1.0.6
+1068 silly postinstall glob@7.1.2
+1069 info lifecycle glob@7.1.2~postinstall: glob@7.1.2
+1070 silly postinstall rimraf@2.6.1
+1071 info lifecycle rimraf@2.6.1~postinstall: rimraf@2.6.1
+1072 silly postinstall fs-plus@3.0.1
+1073 info lifecycle fs-plus@3.0.1~postinstall: fs-plus@3.0.1
+1074 silly postinstall season@6.0.0
+1075 info lifecycle season@6.0.0~postinstall: season@6.0.0
+1076 silly postinstall first-mate@7.0.7
+1077 info lifecycle first-mate@7.0.7~postinstall: first-mate@7.0.7
+1078 silly postinstall bracket-matcher@0.87.3
+1079 info lifecycle bracket-matcher@0.87.3~postinstall: bracket-matcher@0.87.3
+1080 verbose unlock done using /home/marcus/.atom/.apm/_locks/staging-eda84e2dd2c0ee59.lock for /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/node_modules/.staging
+1081 silly install saveToDependencies
+1082 warn saveError ENOENT: no such file or directory, open '/tmp/apm-install-dir-117722-23905-1hbh6ux.42lk/package.json'
+1083 info lifecycle undefined~preshrinkwrap: undefined
+1084 info lifecycle undefined~shrinkwrap: undefined
+1085 verbose stack Error: write EPIPE
+1085 verbose stack     at exports._errnoException (util.js:1016:11)
+1085 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:850:14)
+1086 verbose cwd /tmp/apm-install-dir-117722-23905-1hbh6ux.42lk
+1087 verbose Linux 4.11.5-1-ARCH
+1088 verbose argv "/usr/bin/node" "/usr/lib/node_modules/npm/bin/npm-cli.js" "--globalconfig" "/home/marcus/.atom/.apm/.apmrc" "--userconfig" "/home/marcus/.atom/.apmrc" "install" "/tmp/d-117722-23905-169wg0e.d6ca/package.tgz" "--runtime=electron" "--target=1.4.16" "--arch=x64" "--global-style"
+1089 verbose node v8.1.2
+1090 verbose npm  v5.3.0
+1091 error code EPIPE
+1092 error errno EPIPE
+1093 error syscall write
+1094 error write EPIPE
+1095 verbose exit [ 1, true ]
