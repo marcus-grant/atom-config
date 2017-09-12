@@ -8,6 +8,7 @@
     disabledPackages: [
       "linter-eslint"
     ]
+    packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
     themes: [
       "one-light-ui"
@@ -18,3 +19,6 @@
   "exception-reporting":
     userId: "43be0be2-da71-47fc-8de8-71c25ec2f6ec"
   "linter-ui-default": {}
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
+    previewSplitPaneDir: "down"
